@@ -1,0 +1,61 @@
+{%extends 'main.html'%}
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Data Analyst Portfolio</title>
+    
+</head>
+<body>
+   {%block content%}
+
+    <main class="skills-container">
+        <h1 class="section-title" data-aos="fade-down">My Skills</h1>
+
+        <div class="skills-grid">
+            <div class="skill-category" data-aos="fade-up">
+                <h2>Data Analysis</h2>
+                <div class="skill-list">
+                    <span class="skill-item">SQL</span>
+                    <span class="skill-item">Python</span>
+                    <span class="skill-item">ETL</span>
+                </div>
+            </div>
+
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                <h2>Data Visualization</h2>
+                <div class="skill-list">
+                    <span class="skill-item">Power BI</span>
+                    <span class="skill-item">matplotlib</span>
+                    
+                </div>
+            </div>
+            
+
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                <h2>Data Engineering</h2>
+                <div class="skill-list">
+                    <span class="skill-item">Databricks</span>
+                    <span class="skill-item">PySpark</span>
+                    <span class="skill-item">ADF pipeines</span>
+                    <span class="skill-item">Azure</span>
+                    <span class="skill-item">Data preprocessing</span>
+                </div>
+            </div>
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                <h2>Others</h2>
+                <div class="skill-list">
+                    <span class="skill-item">Basics of AI & ML</span>
+                    <span class="skill-item">Programming lang: Python </span>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    {%endblock%}
+
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+{%extends 'main.html'%}
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internships - Data Analyst Portfolio</title>
+    
+</head>
+<body>
+    {%block content%}
+
+    <main class="internships-container">
+        <h1 class="section-title" data-aos="fade-down">My Internships</h1>
+
+        <div class="internships-grid">
+            <div class="internship-card" data-aos="fade-up">
+                <div class="internship-header">
+                    <img class="company-logo"  src="https://celabalshblob.blob.core.windows.net/mediacont/ct-meta.png">
+ 
+                    <div class="company-info">
+                        <h3>Power BI Intern</h3>
+                        <p class="company-name">Celebel Technologies</p>
+                    </div>
+                </div>
+                <div class="internship-details">
+                    <div class="duration">
+                        <i class="far fa-calendar"></i>
+                        <span>April 2024 - Sep 2024</span>
+                    </div>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Jaipur,RJ</span>
+                    </div>
+                </div>
+                <ul class="responsibilities">
+                    <li>Analyzed Bot performance & behavior data using SQL and Python</li>
+                    <li>Created interactive dashboards using Power BI</li>
+                    <li>Improved reporting efficiency by 40%</li>
+                </ul>
+                <div class="tech-stack">
+                    <span>SQL</span>
+                    <span>Python</span>
+                    <span>Power BI</span>
+                </div>
+            </div>
+
+            
+                     
+        </div>
+    </main>
+
+    {%endblock%}
+</body>
+</html>

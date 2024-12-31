@@ -1,0 +1,62 @@
+{%extends 'main.html'%}
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Data Analyst Portfolio</title>
+    
+</head>
+<body>
+    {%block content%}
+
+    <main class="projects-container">
+        <h1 class="section-title" data-aos="fade-down">My Projects</h1>
+        
+        <div class="projects-grid">
+            <div class="project-card" data-aos="fade-up">
+                <img src="{%static 'images/gpt.png'%}" alt="Project 1">
+                <h3>InsightGPT</h3>
+                <p>Interactive dashboard analyzing the Bot performance of GPT using Power BI and reduces the manual reporting time by 30%</p>
+                <div class="project-tags">
+                    <span>Power BI</span>
+                    <span>SQL</span>
+                    <span>Data Analysis</span>
+                    <span>ETL</span>
+                </div>
+                <a href="https://app.fabric.microsoft.com/view?r=eyJrIjoiMTdhMzM4N2ItYjk4OS00MTBjLWE5NTMtMDkyOTJkODFjM2QyIiwidCI6IjU4NmM3ZGZiLTgwZmEtNDk4NC05ZDQ0LWRkY2FkYjk4Y2Y5NiJ9" class="project-link">View Project</a>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://cdn.boldbi.com/wp/blogs/real-time-analytics/financial.webp" alt="Project 2">
+                <h3>Real-Time Data Analytics and Visualization Platform</h3>
+                <p>Integrated Azure Data Factory to automate data ingestion and preparation,improving operational effectiveness by 20%, and reduced manual reporting time by 50% through automation</p>
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Power BI</span>
+                    <span>ETL</span>
+                    
+                </div>
+                <a href="https://github.com/shreya792/REAL_TIME_DATA_ANALYSIS" class="project-link">View Project</a>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Ba4HN9SNIv0z4-XeFCvYxA.jpeg" alt="Project 3">
+                <h3>Azure Gen2 Data Pipeline with Databricks Integration</h3>
+                <p>Ingested mixed-format files from Azure Gen2 Storage using ADF pipelines and developed Databricks notebooks to clean, transform, and load data into Delta tables, reducing processing time by 25% with optimized configurations.</p>
+                <div class="project-tags">
+                    <span>DataBricks</span>
+                    <span>Azure</span>
+                    <span>PySpark</span>
+                    <span>ADF pipelines</span>
+                </div>
+                <a href="https://github.com/kakarot7072/AzureGen2Integration" class="project-link">View Project</a>
+            </div>
+        </div>
+    </main>
+    {%endblock%}
+
+    
+</body>
+</html>

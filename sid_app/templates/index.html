@@ -1,0 +1,41 @@
+{%extends 'main.html'%}
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+ 
+   
+</head>
+<body>
+    {%block content%}
+
+    <main class="home-container">
+        <section class="hero">
+            <div class="hero-content" data-aos="fade-up">
+                <h1>Hello, I'm <span class="highlight">Siddhi Sudrania</span></h1>
+                <div class="typed-container">
+                    <span id="typed-text"></span>
+                </div>
+                <p class="hero-description">
+                    B.tech Undergraduate
+                </p>
+                <a href="{%url 'contact'%}" class="cta-button">Get in Touch</a>
+            </div>
+        </section>
+
+        <section class="stats" data-aos="fade-up">
+            <div class="stat-card">
+                <h3> Summary</h3>
+                <span class="counter">Enthusiastic Computer Science graduate with strong expertise in Power BI, Python, SQL, and Azure, specializing in data visualization, ETL pipelines, and technical analysis. Proficient in transforming complex datasets into actionable insights to drive business success.</span>
+            </div>
+            
+        </section>
+    </main>
+    {%endblock%}
+
+    
+</body>
+</html>
