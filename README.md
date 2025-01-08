@@ -47,7 +47,7 @@ To run this project locally:
 - Add or edit sections like projects, skills, or certificates by updating the respective HTML files and Django views.
 
 ## Preview
-- **Screenshots**: [Image](https://github.com/siddhi-sudrania/Portfolio/blob/main/static/images/port.png)
+- **Screenshots**: [Image](https://github.com/siddhi-sudrania/Portfolio/blob/main/static/Images/port.png)
 - **Portfolio**: [link](https://portfolio-siddhi-sudranias-projects.vercel.app)
 
 ## License
